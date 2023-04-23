@@ -1,0 +1,81 @@
+/* CSS reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.header{
+    margin-top: 5rem;
+    /* display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
+}
+
+.header-name{
+    font-size: 1.7rem;
+    font-family: 'Prata', sans-serif;
+    font-weight: 300;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+} */
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #aaa;
+}
+.header-btn{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.btn-contact{
+    padding: 1.5rem;
+    color: black;
+    background-color: yellow;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width:768px) {
+    body{
+        background-color: bisque;
+    }
+}
