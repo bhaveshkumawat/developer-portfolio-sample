@@ -301,7 +301,7 @@ main{
 
 }
 
-@media(max-width:500px){
+@media(max-width:510px){
     html{
         font-size: 45%;
     }
